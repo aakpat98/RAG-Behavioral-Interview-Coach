@@ -1,6 +1,5 @@
 # RAG Tool For Recalling STAR stories
 
----
 
 ## Description
 
@@ -8,7 +7,6 @@ This repository contains a Retrieval-Augmented Generation (RAG) powered behavior
 
 You can update your corpus of stories anytime by adding new PDF files and rerunning the embedding script. The interactive Streamlit dashboard provides an intuitive interface to generate and review answers.
 
----
 
 ## Features
 
@@ -19,7 +17,6 @@ You can update your corpus of stories anytime by adding new PDF files and rerunn
 * User-friendly Streamlit interface.
 * Refresh your index anytime by adding new stories and rerunning the data loader script.
 
----
 
 ## 📁 Repository Structure
 
@@ -40,7 +37,6 @@ behavioral-interview-coach-rag/
 └── requirements.txt            # Python dependencies (necessary packages mentioned below)
 ```
 
----
 
 ## Installation
 
@@ -66,7 +62,6 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
----
 
 ## Usage
 
@@ -109,7 +104,6 @@ You will see an interface where you can:
 * Retrieve relevant incidents
 * View the Gemini-generated answer in STAR format along with follow-up questions and delivery tips
 
----
 
 ## Screenshots
 
@@ -122,13 +116,10 @@ You will see an interface where you can:
 <img width="1298" alt="Screenshot 2025-06-29 at 7 15 50 PM" src="https://github.com/user-attachments/assets/243bd34a-0057-4a1e-9759-f3a2bca231eb" />
 
 
----
-
 ## Motivation
 
 I built this tool because I often struggled to remember the right stories to match a behavioral interview question. This tool helps me retrieve the best story quickly, ensuring my responses are structured, relevant, and impactful.
 
----
 
 ## Future Work
 
@@ -137,7 +128,6 @@ I built this tool because I often struggled to remember the right stories to mat
 * Support exporting answers to PDF/Markdown
 * Enhance UI theming and layout
 
----
 
 ## Requirements
 
@@ -151,19 +141,16 @@ PyPDF2
 google-generativeai
 ```
 
----
 
 ## Contributing
 
 Pull requests and suggestions are welcome! Please open an issue first to discuss your ideas or improvements.
 
----
 
 ## License
 
 [MIT](LICENSE)
 
----
 
 ## ✨ Acknowledgments
 
