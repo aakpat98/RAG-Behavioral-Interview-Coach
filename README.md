@@ -65,6 +65,10 @@ pip install -r requirements.txt
 
 ## Usage
 
+Update ```Data_Loader.py```: Update your folder directory path.
+
+Update ```Behavioral_Coach.py```: Enter your Google Gemini API Key. This project uses the Gemini 2.5 Flash model, which can also be changed in the same file.
+
 ### Prepare Your Documents
 
 * Place all your PDF files (containing your stories, projects, or incidents) in the `documents/` folder.
@@ -85,10 +89,6 @@ This script will:
 * Build and save a FAISS index (`faiss_index.index`) and a pickled documents file (`documents.pkl`)
 
 You can update your corpus anytime by adding new PDFs and rerunning this script.
-
-### Enter Gemini API Key
-
-In the ```Behavioral_Coach.py```, you will have to enter your Google Gemini API Key. This project uses the Gemini 2.5 Flash model, which can also be changed in the same file.
 
 ### Launch the Streamlit App
 
@@ -151,7 +151,3 @@ Pull requests and suggestions are welcome! Please open an issue first to discuss
 
 [MIT](LICENSE)
 
-
-## ✨ Acknowledgments
-
-Built for **AI for NLP** course assignment, and inspired by recent developments in Retrieval-Augmented Generation and LLM-based personal assistants.
