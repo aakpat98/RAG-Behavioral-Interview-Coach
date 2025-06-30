@@ -1,4 +1,4 @@
-# RAG Tool For Recalling STAR stories
+# RAG Tool For Recalling STAR stories 
 
 
 ## Description
