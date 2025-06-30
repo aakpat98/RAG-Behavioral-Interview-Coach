@@ -34,7 +34,7 @@ model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # Initialize Gemini with error handling
 try:
-    genai.configure(api_key="ENTER_YOUR_GEMINI_API_KEY")
+    genai.configure(api_key="ENTER_YOUR_GEMINI_API_KEY") # Enter your Gemini API Key
 except Exception as e:
     st.error("Error configuring Gemini API: " + str(e))
     st.stop()
